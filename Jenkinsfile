@@ -11,7 +11,7 @@ pipeline {
         }
         stage ("Clone repo") {
             steps {
-                sh "git clone https://github.com/NefaZz/"
+                sh "git clone https://github.com/NefaZz/Springboot.git"
             }
         }
         stage ("Generate backend image") {
